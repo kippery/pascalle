@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="description" content="">
+<title>Pascalle Math Tutoring - Home Page</title>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="calendar.html" class="cs-li-link">
+                            Calendar
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="syllabus.html" class="cs-li-link">
+                            Syllabus
+                        </a>
+                    </li>
+                    <!-- Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            More
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="benefits.html" class="cs-li-link cs-drop-link">Why Invest</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="subjects.html" class="cs-li-link cs-drop-link">Subjects</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="pricing.html" class="cs-li-link cs-drop-link">Pricing</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="contact.html" class="cs-li-link cs-drop-link">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="contact.html" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+             
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-671">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Get the scores your deserve</span>
+            <h2 class="cs-title">Unlock Your <span class="cs-color">Mathematical </span>Potential</h2>
+            <p class="cs-text">
+                At Pascalle, we specialize in personalized guidance for Algebra, Geometry, AP Calculus, and more. Conquer equations and excel in the world of numbers with confidence and expertise.
+            </p>
+                <a href="calendar.html" class="cs-button-solid">Book Lesson</a>
+                
+        </div>
+        <picture class="cs-background">
+            <!--Desktop-->
+            <source media="(min-width: 1024px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero%2Fconsult1.jpg">
+            <!--Tablet-->
+            <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero%2Fconsult-t1.jpg">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero%2Fconsult1-m.jpg">
+            <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero%2Fconsult1.jpg" alt="consultation" width="960" height="979" aria-hidden="true">
+        </picture>
+    </div>
+    <img class="cs-graphic" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero%2FShape.svg" alt="graphic" width="960" height="979" aria-hidden="true">
+</section>
+
+<!-- ============================================ -->
+<!--                   Quote                      -->
+<!-- ============================================ -->
+
+<section id="quote-560">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Quote</span>
+            <p class="cs-quote">
+                "We just got Pearce’s scores back in math and he went from 480 to 720!"</p>
+            <span class="cs-name">Richard Parsons</span>
+        </div>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-944">
+    <div class="cs-container">
+        <!-- Left Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Subjects</span>
+            <h2 class="cs-title">Our Areas of Expertise</h2>
+            <p class="cs-text">
+                Designed to maintain your current colour, blend out a growing root or balance your blonde while providing full and demi-permanent coverage.
+            </p>
+            <a class="cs-button-solid" aria-label="read more about our services" href="subjects.html">View All Subjects</a>
+        </div>
+        <!-- Right Image Section -->
+        <div class="cs-picture-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg" alt="hair washing" width="630" height="380" aria-hidden="true">
+            </picture>
+            <a class="cs-play" href="">
+                <img class="cs-play-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/play-white.svg" alt="play link" width="24" height="24" aria-hidden="true">
+            </a>
+        </div>
+    </div>
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">Grades 9-12</h3>
+            <p class="cs-item-text">
+                Raise your scores, and erase the headache. 
+            </p>
+            <a href="subjects.html" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">SAT Math</h3>
+            <p class="cs-item-text">
+                Earn admission to your dream school with a competitive SAT Math score.</p>
+            <a href="subjects.html" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">AP Calculus</h3>
+            <p class="cs-item-text">
+                Conquer the FRQs and ace the exam with ease.
+            </p>
+            <a href="subjects.html" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+    </ul>
+    <!--Waves Background-->
+    <picture class="cs-waves">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves-m.svg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg" alt="waves graphic" width="1920" height="331" aria-hidden="true">
+    </picture>
+</section>
+                   
+<!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-889">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Process</span>
+            <h2 class="cs-title">How It Works</h2>
+            <p class="cs-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ficon-orange.svg" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Contact Us</h3>
+                <p class="cs-item-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo voluptate.
+                </p>
+            </li>
+            <!--Arrow-->
+            <li class="cs-item cs-arrow" aria-hidden="true">
+                <img class="cs-arrow-img" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Farrow-curve-right.svg" alt="icon" width="80" height="76" loading="lazy" decoding="async" aria-hidden="true">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ficon-orange.svg" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Initial Evaluation</h3>
+                <p class="cs-item-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo voluptate.
+                </p>
+            </li>
+            <!--Arrow-->
+            <li class="cs-item cs-arrow" aria-hidden="true">
+                <img class="cs-arrow-img" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Farrow-curve-right.svg" alt="icon" width="80" height="76" loading="lazy" decoding="async" aria-hidden="true">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ficon-orange.svg" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Develop a Plan</h3>
+                <p class="cs-item-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo voluptate.
+                </p>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">View All Projects</a>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-team-860">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Expert Team</span>
+                <h2 class="cs-title">Meet The Team Behind Their Success Story</h2>
+            </div>
+            <a href="" class="cs-button-solid">View All Members</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg" alt="person" width="305" height="407">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Candace Li</span>
+                    <span class="cs-job">Founder, SAT Tutor</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg" alt="person" width="305" height="407">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Trevor Camper</span>
+                    <span class="cs-job">Math Tutor</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                    Stats                     -->
+<!-- ============================================ -->
+
+<section id="stats-8">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Work with Us</span>
+            <h2 class="cs-title">Our Numbers Speak For Themselves</h2>
+            <p class="cs-text">
+                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar. 
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-number">675+</span>
+                <span class="cs-stat-text">Happy Clients</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">100%</span>
+                <span class="cs-stat-text">Guaranteed Score Increase</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">15+</span>
+                <span class="cs-stat-text">Years of Experience</span>
+            </li>
+            
+        </ul>
+        <a href="" class="cs-button-solid">Contact Us</a>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg" alt="brick wall" width="1920" height="1282" aria-hidden="true">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-351">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Asked questions</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+        </div>
+        <ul class="cs-faq-group">
+            <!-- Active class added as default -->
+            <li class="cs-faq-item active">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        How much are tutoring services?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    See our pricing page at the top of the page in our navigation bar.
+                </p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        Do you hold classes in-person?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Our classes are held exclusively online throguh Zoom.</p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        How long before we see score improvements?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Under our instruction, it is not uncommon to see results within one lesson. For some students, however, scores may improve over the course of a few weeks. Score progression depends on several factors, including study habits, students' adeptness to learning new material, students' attentiveness during class, etc. 
+                </p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        What are the benefits of tutoring?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    In addition to great scores, tutoring brings peace of mind. Students with private tutors are more likely to obtain academic awards that elevate their college applications, and academic-based scholarships that reduce the cost of education.
+                </p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        Do you tutor students below grade 9?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    We accepts students in grades 6+.</p>
+            </li>
+        </ul>
+        <!--Added second UL, this allows you to open an FAQ item on each side without messing up the flexbox for the other -->
+        <ul class="cs-faq-group">
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        What is your cancellation policy?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Click the 'Syllabus' tab at the top for information on our cancellation policy.
+                </p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        Do you provide tutoring services outside of regular hours?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Tutoring rates are 1.5x outside of regular hours. To schedule on this calendar, please reach out to us.
+                </p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        Do you tutor subjects besides mathematics?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    At this time, we only tutor mathematics.</p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        How long are tutoring sessions?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Each session is 50-min + 10-min for prep.</p>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-button">
+                    <span class="cs-button-text">
+                        Do you provide tutoring packages?
+                    </span>
+                </button>
+                <p class="cs-item-p">
+                    Yes, we offer several package options for students seeking long-term tutoring.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+          
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews-990">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Small Group Training</span>
+            <h2 class="cs-title">Happy Customer Feedback About Our Service</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review1.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review1.jpg" alt="person" width="240" height="300">
+                </picture>
+                <div class="cs-flex">
+                    <span class="cs-name">George Thomas</span>
+                    <span class="cs-desc">Founder Of Yokoloko</span>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque sapiente officiis voluptatibus, corporis unde dolor nulla nostrum perferendis.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review2.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon-review2.jpg" alt="person" width="240" height="300">
+                </picture>
+                <div class="cs-flex">
+                    <span class="cs-name">Mason James</span>
+                    <span class="cs-desc">Senior Gardener Farmer</span>
+                    <p class="cs-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque sapiente officiis voluptatibus, corporis unde dolor nulla nostrum perferendis.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                    CTA                       -->
+<!-- ============================================ -->
+
+<section id="cta-80">
+    <!-- Need this to create a stage for the stripes, and use overflow: hidden on this container so the stripes don't overlap the sections above and below #cta -->
+    <div class="cs-stripes"></div>
+    <div class="cs-container">
+        <!-- Left Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Contact us</span>
+            <h2 class="cs-title">Ready To Get Started?</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas adipiscing nulla suspendisse bibendum arcu diam, pellentesque lorem. Amet hac et sed rhoncus magna. Nisl neque ut varius volutpat morbi.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Contact Us</a>
+        </div>
+        <!-- Right Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone-m.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/phone.jpg" alt="phone in hand" width="457" height="632">
+        </picture>
+    </div>
+</section>
+                                
+
+</html>
+
+<script src="animation.js"></script>
