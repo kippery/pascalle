@@ -21,9 +21,9 @@
 <header id="cs-navigation">
     <div class="cs-container">
         <!--Nav Logo-->
-        <a href="" class="cs-logo" aria-label="back to home">
+        <!-- <a href="" class="cs-logo" aria-label="back to home">
             <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
-        </a>
+        </a> -->
         <!--Navigation List-->
         <nav class="cs-nav" role="navigation">
             <!--Mobile Nav Toggle-->
@@ -42,36 +42,35 @@
                             Home
                         </a>
                     </li>
-                    <li class="cs-li">
-                        <a href="about.html" class="cs-li-link">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="calendar.html" class="cs-li-link">
-                            Calendar
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="syllabus.html" class="cs-li-link">
-                            Syllabus
-                        </a>
-                    </li>
-                    <!-- Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
                     <li class="cs-li cs-dropdown" tabindex="0">
                         <span class="cs-li-link">
-                            More
+                            Newcomers
                             <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
+                                <a href="about.html" class="cs-li-link cs-drop-link">About</a>
+                            </li>
+                            <li class="cs-drop-li">
                                 <a href="benefits.html" class="cs-li-link cs-drop-link">Why Invest</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="subjects.html" class="cs-li-link cs-drop-link">Subjects</a>
+                                <a href="pricing.html" class="cs-li-link cs-drop-link cs-active">Pricing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Students
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="calendar.html" class="cs-li-link cs-drop-link">Book Here</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="pricing.html" class="cs-li-link cs-drop-link cs-active">Pricing</a>
+                                <a href="syllabus.html" class="cs-li-link cs-drop-link">Syllabus</a>
                             </li>
                             <li class="cs-drop-li">
                                 <a href="contact.html" class="cs-li-link cs-drop-link">Contact</a>
@@ -94,9 +93,8 @@
 <!--                   Banner                     -->
 <!-- ============================================ -->
 
-<div id="banner-559">
+<div id="banner-1402">
     <div class="cs-container">
-        <span class="cs-int-topper">Mathematics Made Simple</span>
         <span class="cs-int-title">Pricing</span>
         <div class="cs-breadcrumbs">
             <a href="index.html" class="cs-link">Home</a>
@@ -106,19 +104,19 @@
     <!--Background Image-->
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna-m.jpg">
+        <source media="(max-width: 600px)" srcset="images/math-book-m.webp">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna.jpg" alt="dna" width="1280" height="568" aria-hidden="true">
+        <source media="(min-width: 601px)" srcset="images/math-book.webp">
+        <img loading="lazy" decoding="async" src="images/math-book.webp" alt="dna" width="1280" height="568" aria-hidden="true">
     </picture>
-</div>                 
-                                               
-
+</div>
+                          
+                
 <!-- ============================================ -->
 <!--                  Pricing                     -->
 <!-- ============================================ -->
 
-<section id="pricing-356">
+<section id="pricing-357">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Pricing</span>
@@ -126,34 +124,30 @@
             <p class="cs-text">
                 Experience academic refinement at Pascalle. Our elite pricing underscores a commitment to excellence, offering bespoke packages for elevated mathematical proficiency.
             </p>
-            <div class="cs-toggle-group">
-                <span id="cs-option1-356" class="cs-plan">Individual</span>
-                <div class="cs-toggle" aria-label="click to switch plans pricing">
-                    <span aria-hidden="true" class="cs-toggle-switch"></span>
-                </div>
-                <span id="cs-option2-356" class="cs-plan">Buddy</span>
-            </div>
         </div>
         <ul class="cs-card-group">
             <!-- Option 1 -->
             <li class="cs-item">
-                <h3 class="cs-h3">Single Class</h3>
+                <h3 class="cs-h3">Membership A</h3>
                 <p class="cs-item-text">
-                    Great to Get Started.
+                    Ideal for Grades 9-12
                 </p>
                 <div class="cs-option-group">
-                    <span class="cs-price cs-option1-text">$100<span class="cs-small">/student</span></span>
-                    <span class="cs-price cs-option2-text">$90<span class="cs-small">/student</span></span>
+                    <span class="cs-price">$250<span class="cs-small">/month</span></span>
                 </div>
-                <span class="cs-included">Class Includes</span>
+                <span class="cs-included">Package Includes</span>
                 <ul class="cs-ul">
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        1-on-1 Virtual Tutoring
+                        4 Classes
                     </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Personalized, Expert Education
+                        6 Month Subscription
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        1-on-1 Virtual Tutoring
                     </li>
                     <li class="cs-li cs-disabled">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
@@ -161,77 +155,75 @@
                     </li>
                     <li class="cs-li cs-disabled">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Assignment Dropbox
-                    </li>
-                    <li class="cs-li cs-disabled">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         Priority Scheduling
-                    </li>
-                    <li class="cs-li cs-disabled">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        No Expiration Date
                     </li>
                 </ul>
                 <a href="/basic.html" class="cs-button-solid">Get Started</a>
             </li>
             <!-- Option 2 -->
             <li class="cs-item cs-popular">
-                <h3 class="cs-h3">25 Classes</h3>
+                <h3 class="cs-h3">Membership B</h3>
                 <p class="cs-item-text">
-                    Perfect for SAT
+                    Perfect for Grades 9-12 and AP Calc
                 </p>
                 <div class="cs-option-group">
-                    <span class="cs-price cs-option1-text">$2275<span class="cs-small">/student</span></span>
-                    <span class="cs-price cs-option2-text">$1625<span class="cs-small">/student</span></span>
+                    <span class="cs-price">$450<span class="cs-small">/month</span></span>
                 </div>
                 <span class="cs-included">Package Includes</span>
                 <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        8 Classes
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        6 Month Subscription
+                    </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         1-on-1 Virtual Tutoring
                     </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Personalized, Expert Education
+                        Access to Office Hours
                     </li>
-                    <li class="cs-li">
+                    <li class="cs-li cs-disabled">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         Enrichment Resources
-                    </li>
-                    <li class="cs-li">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Assignment Dropbox
                     </li>
                     <li class="cs-li cs-disabled">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         Priority Scheduling
-                    </li>
-                    <li class="cs-li cs-disabled">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        No Expiration Date
                     </li>
                 </ul>
                 <a href="/basic.html" class="cs-button-solid">Get Started</a>
             </li>
             <!-- Option 3 -->
             <li class="cs-item">
-                <h3 class="cs-h3">50 Classes</h3>
+                <h3 class="cs-h3">Intensive</h3>
                 <p class="cs-item-text">
-                    Ideal for AP Calc
+                    Ideal for SAT
                 </p>
                 <div class="cs-option-group">
-                    <span class="cs-price cs-option1-text">$4450<span class="cs-small">/student</span></span>
-                    <span class="cs-price cs-option2-text">$2750<span class="cs-small">/student</span></span>
+                    <span class="cs-price">$550<span class="cs-small">/month</span></span>
                 </div>
                 <span class="cs-included">Package Includes</span>
                 <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        8 Classes
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                        3 Month Subscription
+                    </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         1-on-1 Virtual Tutoring
                     </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Personalized, Expert Education
+                        Access to Office Hours
                     </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
@@ -239,15 +231,7 @@
                     </li>
                     <li class="cs-li">
                         <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        Assignment Dropbox
-                    </li>
-                    <li class="cs-li">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
                         Priority Scheduling
-                    </li>
-                    <li class="cs-li">
-                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
-                        No Expiration Date
                     </li>
                 </ul>
                 <a href="/basic.html" class="cs-button-solid">Get Started</a>
@@ -255,6 +239,7 @@
         </ul>
     </div>
 </section>
+                                
 
 <div style="
     width: 100%;
@@ -270,14 +255,13 @@
     <div class="cs-container">
         <div class="cs-content">
             <h2 class="cs-title">Not Sure Which Package Is Best For You?</h2>
-            <a href="" class="cs-button-solid">Get In Touch</a>
+            <a href="contact.html" class="cs-button-solid">Get In Touch</a>
         </div>
     </div>
     <!--SVG Waves Background-->
     <img class="cs-background" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fwaves-3.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
 </section>
                    
-             
 <!-- ============================================ -->
 <!--                   Footer                     -->
 <!-- ============================================ -->
@@ -312,35 +296,28 @@
             </li>
         </ul>
         <ul class="cs-nav">
-            <!-- <li class="cs-nav-li">
-                <span class="cs-header">Services</span>
-            </li> -->
-            
             <li class="cs-nav-li">
-                <a class="cs-nav-link" href="index.html">Home</a>
+                <span class="cs-header">Newcomers</span>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="about.html">About</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="benefits.html">Why Invest</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="pricing.html">Pricing</a>
+            </li>
+        </ul>
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Students</span>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="calendar.html">Calendar</a>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="syllabus.html">Syllabus</a>
-            </li>
-        </ul>
-        <ul class="cs-nav">
-            <!-- <li class="cs-nav-li">
-                <span class="cs-header">Locations</span>
-            </li> -->
-            <li class="cs-nav-li">
-                <a class="cs-nav-link" href="benefits.html">Why Invest</a>
-            </li>
-            <li class="cs-nav-li">
-                <a class="cs-nav-link" href="subjects.html">Subjects</a>
-            </li>
-            <li class="cs-nav-li">
-                <a class="cs-nav-link" href="pricing.html">Pricing</a>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="contact.html">Contact</a>
