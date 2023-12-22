@@ -729,4 +729,17 @@
     }
   }
   
-                                                                                                
+@media screen and (max-width: 600px){
+  .grades{
+    width: 100%;
+  }
+}  
+@media screen and (min-width: 601px){
+    .areas-of-expertise{
+      display: flex;
+      width: 100%;
+    }                                 
+    .grades{
+      flex: 50%;
+    }
+  }  
